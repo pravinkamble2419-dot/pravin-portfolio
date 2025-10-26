@@ -1,0 +1,84 @@
+.body {
+    background-color: #b22b2b;
+}
+
+.header {
+    text-align: center;
+   margin-bottom: 20px;
+    background-color: #e0e7ff;
+     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    
+}
+.title {
+    font-size: 16px;
+    color: #444 ;
+}
+.Contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to right, #f3e5f5, #e1f5fe);
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px; /* 👈 Font size increased here */
+}
+
+.contact-item {
+  white-space: nowrap;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 16px; /* 👈 Link font size also increased */
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #0077b6;
+}
+.title h1 {
+    font-family: cursive;
+}
+.About {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background: linear-gradient(135deg, #f0f4ff, #e0e7ff);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.about-text h2 {
+  font-size: 1rem;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.photo {
+  width: 280px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
